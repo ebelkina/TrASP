@@ -429,7 +429,7 @@ def run_experiment(
     df_val_cases = pd.read_csv(f'data_processed/{name}_val.csv')
 
     # Decode activity sequences stored as strings back to lists
-    df_train_cases['activities'] = df_train_cases['activities'].apply(ast.literal_eval) # todo use .pkl
+    df_train_cases['activities'] = df_train_cases['activities'].apply(ast.literal_eval)
     df_val_cases['activities'] = df_val_cases['activities'].apply(ast.literal_eval)
     print(df_train_cases['activities'][:3])  # Show first few examples
 
@@ -469,7 +469,7 @@ def run_experiment(
     # Enable multi-GPU training if available
     if DEVICE == 'cuda' and torch.cuda.device_count() > 1:
         print(f"Using {torch.cuda.device_count()} GPUs")
-        model = nn.DataParallel(model)  # todo
+        model = nn.DataParallel(model)
 
     # Watch the model in wandb for gradient and parameter tracking
     if wb_log: wandb.watch(model)
@@ -521,7 +521,7 @@ def run_experiment(
         if verbose_shapes: print(f'>TRAIN LOSS for step {step}:\t{loss.item():.4f}')
         if wb_log:
             wandb.log({
-                "train/loss": loss.item(),  # todo avg
+                "train/loss": loss.item(),
                 "train/learning_rate": scheduler.get_last_lr()[0],  # todo
                 # "train/learning_rate": optimizer.param_groups[0]['lr'],
                 "step": step
@@ -543,7 +543,7 @@ def run_experiment(
         is_last_step = (step == total_num_steps)
         should_validate = (step % validate_every == 0)
         steps_to_save = total_num_steps / 2
-        should_save = (step % steps_to_save == 0)  # todo as arg ?
+        should_save = (step % steps_to_save == 0)
 
         if step > 0 and (should_validate or is_last_step):
             model.eval()  # Disable dropout, etc.
