@@ -1,0 +1,22 @@
+generalization type,data type,test data name,model,test data,DL similarity,std,ci,stop at EOS
+In-Single-Domain,real,BPIC17Of,0617_1209_BPIC17Of_model_step_60000,BPIC17Of_test,0.6058,0.3923,0.0243,True
+In-Single-Domain,real,BPIC19f,0617_1210_BPIC19f_model_step_60000,BPIC19f_test,0.7495,0.3296,0.0204,True
+In-Single-Domain,real,BPIC20R,0617_1211_BPIC20R_model_step_60000,BPIC20R_test,0.8822,0.2449,0.0153,True
+In-Single-Domain,real,Helpdesk,0617_1208_Helpdesk_model_step_60000,Helpdesk_test,0.8591,0.2036,0.0126,True
+In-Single-Domain,synthetic,Synth_74,0621_2102_74_model_step_60000,74_test,0.4411,0.2228,0.0138,True
+In-Single-Domain,synthetic,Synth_2,0617_2105_2_model_step_60000,2_test,0.3832,0.2519,0.0156,True
+In-Single-Domain,synthetic,Synth_88,0619_0558_88_model_step_60000,88_test,0.3459,0.2201,0.0136,True
+In-Single-Domain,synthetic,Synth_34,0621_2102_34_model_step_60000,34_test,0.3147,0.2541,0.0157,True
+In-Multy-Domain,real,BPIC17Of,0617_1212_real_model_step_60000,BPIC17Of_test,0.598,0.3956,0.0245,True
+In-Multy-Domain,real,BPIC19f,0617_1212_real_model_step_60000,BPIC19f_test,0.7432,0.33,0.0205,True
+In-Multy-Domain,real,BPIC20R,0617_1212_real_model_step_60000,BPIC20R_test,0.8883,0.242,0.0151,True
+In-Multy-Domain,real,BPIC17Of_19f_20R,0617_1212_real_model_step_60000,real_test,0.7723,0.331,0.0205,True
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,74_test,0.1854,0.252,0.0156,True
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,2_test,0.2559,0.2529,0.0157,True
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,88_test,0.1614,0.23,0.0143,True
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,34_test,0.1026,0.1635,0.0101,True
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,SynthBest_1_test,0.1967,0.2442,0.0151,True
+Out-Of-Domain,real,Helpdesk,0617_1212_real_model_step_60000,real_test_cross,0.0,0.0,0.0,True
+Out-Of-Domain,real,Helpdesk*,0617_1212_real_model_step_60000,real_test_cross,0.1251,0.2046,0.0127,False
+Out-Of-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,SynthBest_2_test,0.0618,0.1142,0.0071,True
+Out-Of-Domain,synthetic,SynthBest_1*,0619_2211_SynthBest_1_model_step_60000,SynthBest_2_test,0.0832,0.1402,0.0087,False

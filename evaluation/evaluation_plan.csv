@@ -1,0 +1,22 @@
+generalization type,data type,test data name,model,test,stop at EOS
+In-Single-Domain,real,BPIC17Of,0617_1209_BPIC17Of_model_step_60000,BPIC17Of_test,yes
+In-Single-Domain,real,BPIC19f,0617_1210_BPIC19f_model_step_60000,BPIC19f_test,yes
+In-Single-Domain,real,BPIC20R,0617_1211_BPIC20R_model_step_60000,BPIC20R_test,yes
+In-Single-Domain,real,Helpdesk,0617_1208_Helpdesk_model_step_60000,Helpdesk_test,yes
+In-Single-Domain,synthetic,Synth_74,0621_2102_74_model_step_60000,74_test,yes
+In-Single-Domain,synthetic,Synth_2,0617_2105_2_model_step_60000,2_test,yes
+In-Single-Domain,synthetic,Synth_88,0619_0558_88_model_step_60000,88_test,yes
+In-Single-Domain,synthetic,Synth_34,0621_2102_34_model_step_60000,34_test,yes
+In-Multy-Domain,real,BPIC17Of,0617_1212_real_model_step_60000,BPIC17Of_test,yes
+In-Multy-Domain,real,BPIC19f,0617_1212_real_model_step_60000,BPIC19f_test,yes
+In-Multy-Domain,real,BPIC20R,0617_1212_real_model_step_60000,BPIC20R_test,yes
+In-Multy-Domain,real,BPIC17Of_19f_20R,0617_1212_real_model_step_60000,real_test,yes
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,74_test,yes
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,2_test,yes
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,88_test,yes
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,34_test,yes
+In-Multy-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,SynthBest_1_test,yes
+Out-Of-Domain,real,Helpdesk,0617_1212_real_model_step_60000,real_test_cross,yes
+Out-Of-Domain,real,Helpdesk*,0617_1212_real_model_step_60000,real_test_cross,no
+Out-Of-Domain,synthetic,SynthBest_1,0619_2211_SynthBest_1_model_step_60000,SynthBest_2_test,yes
+Out-Of-Domain,synthetic,SynthBest_1*,0619_2211_SynthBest_1_model_step_60000,SynthBest_2_test,no
