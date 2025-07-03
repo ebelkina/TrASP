@@ -336,7 +336,7 @@ class WandbLogger:
 
 
 # ---------- Experiment ----------
-def run_experiment(
+def train_trasp_model(
     name='BPIC20R',
     vocab = "vocab_real", # "vocab_real", "vocab_synthetic"
     idx2label = 'idx2label_real', # 'idx2label_real', 'idx2label_synthetic'
@@ -612,9 +612,9 @@ if __name__ == "__main__":
 
     # Run experiment with CLI arguments (if any were passed)
     if len(sys.argv) > 1:
-        fire.Fire(run_experiment)  # Allow command-line overrides via `python script.py --batch_size=64`
+        fire.Fire(train_trasp_model)  # Allow command-line overrides via `python script.py --batch_size=64`
     else:
-        run_experiment()  # Run with default parameters
+        train_trasp_model()  # Run with default parameters
 
     # Print entire script source at the end (useful for reproducibility or debugging logs)
     print("\n\n\n================== SCRIPT SOURCE CODE ==================\n")
