@@ -281,54 +281,6 @@ def evaluate_saved_model(
     print(f"95% Confidence Interval: ±{results['ci95']:.4f}")
     return results
 
-def evaluate_models_from_csv(input_csv, results_csv, device, n_samples, verbose_generated, seed):
-    """
-    Evaluate multiple models specified in a CSV file and save summary.
-    :param input_csv (str): CSV listing models and test datasets.
-    :param results_csv (str): Output path for results summary CSV.
-    :param device (str): Device identifier ("cpu" or "gpu").
-    :param n_samples (int): Number of samples per model.
-    :param verbose_generated (int): Number of printed examples.
-    :param seed (int): Random seed for reproducibility.
-    :return: DataFrame summarizing all model evaluations.
-    """
-    df = pd.read_csv(input_csv)
-    print(df)
-
-    summary_rows = []
-
-    for i, row in df.iterrows():
-        model = row["model"]
-        test = row["test"]
-        stop_at_eos = row["stop at EOS"] == 'yes'
-        print(f'\n{i}\tmodel:\t{model}\t\t\ttest:\t{test}')
-
-
-        results = evaluate_saved_model(
-            checkpoint_path=f"outputs/{model}.pt",
-            test_dataset_path=f"data_2_processed_/{test}.csv",
-            device=device,
-            n_samples=n_samples,
-            verbose_generated=verbose_generated,
-            seed=seed,
-            stop_at_eos=stop_at_eos
-        )
-        # print(results)
-        summary_rows.append({
-            "generalization type": row["generalization type"],
-            "data type": row["data type"],
-            "test data name": row["test data name"],
-            "model": model,
-            "test data": test,
-            "DL similarity": round(results["mean"], 4),
-            "std": round(results["std"], 4),
-            "ci": round(results["ci95"], 4),
-            "stop at EOS": stop_at_eos
-        })
-
-    summary = pd.DataFrame(summary_rows)
-    summary.to_csv(results_csv, index=False)
-    return summary
 
 # ---------- Main ----------
 if __name__ == "__main__":
