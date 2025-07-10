@@ -4,7 +4,6 @@ Bachelor Project
 
 ## Towards Out-of-Domain Generalization in Predictive Process Monitoring Using Transformers
 
-> **Status:** In development 🚧
 
 ## Main Files
 
