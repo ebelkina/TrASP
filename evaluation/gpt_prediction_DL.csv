@@ -1,0 +1,101 @@
+Sample,Prefix Lenght,Prefix,True Suffix,True Suffix Lenght,Predicted Suffix,DL Distance,DL Similarity
+1,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+2,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+3,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+4,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+5,1,['assign_seriousness'],"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",4,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved']",1.0,0.75
+6,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+7,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+8,1,['assign_seriousness'],"['resolve_ticket', 'closed']",2,"['take_in_charge_ticket', 'wait']",2.0,0.0
+9,1,['assign_seriousness'],"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",4,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved']",1.0,0.75
+10,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+11,4,"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+12,4,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+13,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+14,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+15,3,"['assign_seriousness', 'take_in_charge_ticket', 'take_in_charge_ticket']","['require_upgrade', 'resolve_ticket', 'closed']",3,"['wait', 'resolve_ticket', 'resolved']",2.0,0.33333333333333337
+16,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+17,3,"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket']","['wait', 'resolve_ticket', 'closed']",3,"['wait', 'resolve_ticket', 'resolved']",1.0,0.6666666666666667
+18,1,['assign_seriousness'],"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'closed']",4,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved']",3.0,0.25
+19,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+20,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+21,1,['assign_seriousness'],"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",4,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved']",1.0,0.75
+22,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+23,4,"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+24,3,"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+25,5,"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+26,1,['assign_seriousness'],"['take_in_charge_ticket', 'wait', 'take_in_charge_ticket', 'resolve_ticket', 'closed']",5,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved', 'closed']",2.0,0.6
+27,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+28,3,"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+29,2,"['assign_seriousness', 'take_in_charge_ticket']","['wait', 'take_in_charge_ticket', 'resolve_ticket', 'closed']",4,"['wait', 'resolve_ticket', 'resolved', 'closed']",2.0,0.5
+30,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+31,4,"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+32,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'resolve_ticket', 'closed']",3,"['wait', 'resolve_ticket', 'resolved']",2.0,0.33333333333333337
+33,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+34,3,"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+35,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+36,5,"['assign_seriousness', 'assign_seriousness', 'wait', 'take_in_charge_ticket', 'wait']","['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['resolve_ticket', 'resolved', 'closed']",2.0,0.33333333333333337
+37,1,['assign_seriousness'],"['resolve_ticket', 'closed']",2,"['take_in_charge_ticket', 'wait']",2.0,0.0
+38,4,"['assign_seriousness', 'take_in_charge_ticket', 'require_upgrade', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+39,5,"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+40,6,"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'wait', 'resolve_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+41,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+42,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+43,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+44,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+45,3,"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+46,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+47,4,"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+48,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+49,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+50,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+51,3,"['assign_seriousness', 'take_in_charge_ticket', 'wait']","['resolve_ticket', 'closed']",2,"['resolve_ticket', 'resolved']",1.0,0.5
+52,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+53,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+54,2,"['assign_seriousness', 'take_in_charge_ticket']","['wait', 'resolve_ticket', 'closed']",3,"['wait', 'resolve_ticket', 'resolved']",1.0,0.6666666666666667
+55,4,"['assign_seriousness', 'take_in_charge_ticket', 'create_sw_anomaly', 'require_upgrade']","['resolve_ticket', 'closed']",2,"['resolve_sw_anomaly', 'resolved']",2.0,0.0
+56,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+57,2,"['assign_seriousness', 'take_in_charge_ticket']","['wait', 'take_in_charge_ticket', 'resolve_ticket', 'closed']",4,"['wait', 'resolve_ticket', 'resolved', 'closed']",2.0,0.5
+58,6,"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'wait', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+59,1,['assign_seriousness'],"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",4,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved']",1.0,0.75
+60,2,"['assign_seriousness', 'resolve_ticket']","['resolve_ticket', 'closed']",2,"['resolved', 'closed']",1.0,0.5
+61,3,"['assign_seriousness', 'take_in_charge_ticket', 'wait']","['resolve_ticket', 'closed']",2,"['resolve_ticket', 'resolved']",1.0,0.5
+62,1,['assign_seriousness'],"['take_in_charge_ticket', 'take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",5,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved', 'closed']",2.0,0.6
+63,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+64,3,"['assign_seriousness', 'take_in_charge_ticket', 'wait']","['wait', 'resolve_ticket', 'closed']",3,"['resolve_ticket', 'resolved', 'closed']",2.0,0.33333333333333337
+65,1,['assign_seriousness'],"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",5,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved', 'closed']",2.0,0.6
+66,4,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+67,4,"['assign_seriousness', 'take_in_charge_ticket', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+68,3,"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+69,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+70,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+71,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'resolve_ticket', 'closed']",3,"['wait', 'resolve_ticket', 'resolved']",2.0,0.33333333333333337
+72,3,"['assign_seriousness', 'take_in_charge_ticket', 'wait']","['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['resolve_ticket', 'resolved', 'closed']",2.0,0.33333333333333337
+73,5,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'take_in_charge_ticket', 'wait']","['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['resolve_ticket', 'resolved', 'closed']",2.0,0.33333333333333337
+74,1,['assign_seriousness'],"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",4,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved']",1.0,0.75
+75,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+76,1,['assign_seriousness'],"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'resolve_ticket', 'resolve_ticket', 'closed']",6,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved', 'closed', 'verified']",4.0,0.33333333333333337
+77,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+78,1,['assign_seriousness'],"['take_in_charge_ticket', 'take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",5,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved', 'closed']",2.0,0.6
+79,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+80,1,['assign_seriousness'],"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'closed']",4,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved']",3.0,0.25
+81,1,['assign_seriousness'],"['resolve_ticket', 'closed']",2,"[""take_in_charge_ticket"", ""resolve_ticket""]",2.0,0.0
+82,2,"['assign_seriousness', 'take_in_charge_ticket']","['wait', 'resolve_ticket', 'closed']",3,"['wait', 'resolve_ticket', 'resolved']",1.0,0.6666666666666667
+83,4,"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['resolve_ticket', 'resolved']",1.0,0.5
+84,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+85,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+86,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+87,2,"['assign_seriousness', 'take_in_charge_ticket']","['wait', 'resolve_ticket', 'closed']",3,"['wait', 'resolve_ticket', 'resolved']",1.0,0.6666666666666667
+88,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+89,2,"['assign_seriousness', 'take_in_charge_ticket']","['resolve_ticket', 'closed']",2,"['wait', 'resolve_ticket']",2.0,0.0
+90,4,"['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+91,2,"['assign_seriousness', 'assign_seriousness']","['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+92,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+93,1,['assign_seriousness'],"['resolve_ticket', 'closed']",2,"['take_in_charge_ticket', 'wait']",2.0,0.0
+94,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+95,1,['assign_seriousness'],"['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket', 'closed']",6,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved', 'closed', 'verified']",4.0,0.33333333333333337
+96,3,"['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket']",['closed'],1,['resolved'],1.0,0.0
+97,2,"['assign_seriousness', 'take_in_charge_ticket']","['wait', 'take_in_charge_ticket', 'resolve_ticket', 'closed']",4,"['wait', 'resolve_ticket', 'resolved', 'closed']",2.0,0.5
+98,1,['assign_seriousness'],"['take_in_charge_ticket', 'wait', 'take_in_charge_ticket', 'resolve_ticket', 'closed']",5,"['take_in_charge_ticket', 'wait', 'resolve_ticket', 'resolved', 'closed']",2.0,0.6
+99,1,['assign_seriousness'],"['take_in_charge_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",2.0,0.33333333333333337
+100,1,['assign_seriousness'],"['resolve_ticket', 'resolve_ticket', 'closed']",3,"['take_in_charge_ticket', 'wait', 'resolve_ticket']",3.0,0.0

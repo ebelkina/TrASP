@@ -1,0 +1,217 @@
+https://chatgpt.com/c/685036ec-9738-800d-955d-e33b6cae88d9 
+
+You are a process prediction assistant.
+
+## Task:
+In process mining, a **prefix** is a sequence of activities that have already occurred.  
+A **suffix** is a sequence of the next most likely activities that follow the prefix.
+
+Your task is to:
+1. Use your understanding of activity semantics and process logic.
+2. Predict the most likely **suffix** (of the specified length) for each prefix.
+3. Choose only from the list of valid activities.
+
+## Valid activities:
+['assign_seriousness', 'closed', 'create_sw_anomaly', 'duplicate', 'insert_ticket', 'invalid', 'require_upgrade', 'resolve_sw_anomaly', 'resolve_ticket', 'resolved', 'schedule_intervention', 'take_in_charge_ticket', 'verified', 'wait']
+
+## Instructions:
+- For each row below, predict the most plausible suffix of the specified length.
+- Each suffix should be a list of activity names, in order.
+- Fill in the “Predicted Suffix” column for each row below.
+
+| Prefix | Suffix Length | Predicted Suffix |
+|--------|----------------|------------------|
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness'] | 4 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 2 |
+| ['assign_seriousness'] | 4 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'take_in_charge_ticket'] | 3 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket'] | 3 |
+| ['assign_seriousness'] | 4 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+
+
+
+2
+You are a process prediction assistant.
+
+## Task:
+In process mining, a **prefix** is a sequence of activities that have already occurred.  
+A **suffix** is a sequence of the next most likely activities that follow the prefix.
+
+Your task is to:
+1. Use your understanding of activity semantics and process logic.
+2. Predict the most likely **suffix** (of the specified length) for each prefix.
+3. Choose only from the list of valid activities.
+
+## Valid activities:
+['assign_seriousness', 'closed', 'create_sw_anomaly', 'duplicate', 'insert_ticket', 'invalid', 'require_upgrade', 'resolve_sw_anomaly', 'resolve_ticket', 'resolved', 'schedule_intervention', 'take_in_charge_ticket', 'verified', 'wait']
+
+## Instructions:
+- For each row below, predict the most plausible suffix of the specified length.
+- Each suffix should be a list of activity names, in order.
+- Fill in the “Predicted Suffix” column for each row below.
+
+| Prefix | Suffix Length | Predicted Suffix |
+|--------|----------------|------------------|
+| ['assign_seriousness'] | 4 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket'] | 1 |
+| ['assign_seriousness'] | 5 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 4 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'assign_seriousness', 'wait', 'take_in_charge_ticket', 'wait'] | 3 |
+| ['assign_seriousness'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'require_upgrade', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait', 'wait', 'resolve_ticket', 'resolve_ticket'] | 1 |
+
+3
+You are a process prediction assistant.
+
+## Task:
+In process mining, a **prefix** is a sequence of activities that have already occurred.  
+A **suffix** is a sequence of the next most likely activities that follow the prefix.
+
+Your task is to:
+1. Use your understanding of activity semantics and process logic.
+2. Predict the most likely **suffix** (of the specified length) for each prefix.
+3. Choose only from the list of valid activities.
+
+## Valid activities:
+['assign_seriousness', 'closed', 'create_sw_anomaly', 'duplicate', 'insert_ticket', 'invalid', 'require_upgrade', 'resolve_sw_anomaly', 'resolve_ticket', 'resolved', 'schedule_intervention', 'take_in_charge_ticket', 'verified', 'wait']
+
+## Instructions:
+- For each row below, predict the most plausible suffix of the specified length.
+- Each suffix should be a list of activity names, in order.
+- Fill in the “Predicted Suffix” column for each row below.
+
+| Prefix | Suffix Length | Predicted Suffix |
+|--------|----------------|------------------|
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket'] | 1 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'create_sw_anomaly', 'require_upgrade'] | 2 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 4 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait', 'wait', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness'] | 4 |
+| ['assign_seriousness', 'resolve_ticket'] | 2 |
+
+4
+You are a process prediction assistant.
+
+## Task:
+In process mining, a **prefix** is a sequence of activities that have already occurred.  
+A **suffix** is a sequence of the next most likely activities that follow the prefix.
+
+Your task is to:
+1. Use your understanding of activity semantics and process logic.
+2. Predict the most likely **suffix** (of the specified length) for each prefix.
+3. Choose only from the list of valid activities.
+
+## Valid activities:
+['assign_seriousness', 'closed', 'create_sw_anomaly', 'duplicate', 'insert_ticket', 'invalid', 'require_upgrade', 'resolve_sw_anomaly', 'resolve_ticket', 'resolved', 'schedule_intervention', 'take_in_charge_ticket', 'verified', 'wait']
+
+## Instructions:
+- For each row below, predict the most plausible suffix of the specified length.
+- Each suffix should be a list of activity names, in order.
+- Fill in the “Predicted Suffix” column for each row below.
+
+| Prefix | Suffix Length | Predicted Suffix |
+|--------|----------------|------------------|
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait'] | 2 |
+| ['assign_seriousness'] | 5 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait'] | 3 |
+| ['assign_seriousness'] | 5 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket', 'take_in_charge_ticket', 'wait'] | 3 |
+| ['assign_seriousness'] | 4 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness'] | 6 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness'] | 5 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness'] | 4 |
+
+5
+You are a process prediction assistant.
+
+## Task:
+In process mining, a **prefix** is a sequence of activities that have already occurred.  
+A **suffix** is a sequence of the next most likely activities that follow the prefix.
+
+Your task is to:
+1. Use your understanding of activity semantics and process logic.
+2. Predict the most likely **suffix** (of the specified length) for each prefix.
+3. Choose only from the list of valid activities.
+
+## Valid activities:
+['assign_seriousness', 'closed', 'create_sw_anomaly', 'duplicate', 'insert_ticket', 'invalid', 'require_upgrade', 'resolve_sw_anomaly', 'resolve_ticket', 'resolved', 'schedule_intervention', 'take_in_charge_ticket', 'verified', 'wait']
+
+## Instructions:
+- For each row below, predict the most plausible suffix of the specified length.
+- Each suffix should be a list of activity names, in order.
+- Fill in the “Predicted Suffix” column for each row below.
+
+| Prefix | Suffix Length | Predicted Suffix |
+|--------|----------------|------------------|
+| ['assign_seriousness'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 3 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 2 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'wait', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 2 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 6 |
+| ['assign_seriousness', 'take_in_charge_ticket', 'resolve_ticket'] | 1 |
+| ['assign_seriousness', 'take_in_charge_ticket'] | 4 |
+| ['assign_seriousness'] | 5 |
+| ['assign_seriousness'] | 3 |
+| ['assign_seriousness'] | 3 |
