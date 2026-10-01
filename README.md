@@ -6,6 +6,8 @@ TrASP is a decoder-only Transformer developed for **activity suffix prediction (
 
 The repository accompanies the bachelor's project report **_Towards Out-of-Domain Generalization in Predictive Process Monitoring Using Transformers_** by **Elena A. Belkina**, Vrije Universiteit Amsterdam.
 
+![TrASP Research Poster](poster.png)
+
 ## Overview
 
 Given an observed activity prefix, the goal is to predict the rest of the process trace:
